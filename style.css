@@ -1,19 +1,95 @@
+/*Base Reset*/
 * {
     margin: 0px;
     padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background: white;
 }
 
-#hero {
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1440px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    z-index: 2;
+}
+
+header > #logo {
+    display: flex;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 40vw;
+    padding-right: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase; 
+    margin-left: 20px;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    left: 0;
+    width: 35vw;
+}
+
+nav li {
+    list-style: none;
+    padding: 5px 20px 5px 20px; 
+}
+
+nav li a {
+    text-decoration: none;
+    color: hsl(230, 29%, 20%);
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.bg-shape {
+    display: flex;
     position: absolute;
+    background: hsl(207, 33%, 95%);
+    width: 45%;
+    height: 65%;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 35px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
     width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 700px;
-    max-width: 400px;
-    max-height: 250px;
-    background: cyan;
+    right: 0;
+}
+
+main > #device {
+    margin-left: 30px;
+
 }
