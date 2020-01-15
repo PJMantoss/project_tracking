@@ -48,6 +48,7 @@ header nav {
     flex-direction: column;
     text-transform: uppercase; 
     padding-left: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 nav > ul {
@@ -68,6 +69,7 @@ nav li a {
     color: hsl(230, 29%, 20%);
     font-size: 14px;
     font-weight: 650;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .bg-shape {
@@ -112,11 +114,14 @@ main .dashboard {
     border-radius: 15px;
     color: white;
     padding: 0 10px;
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .dashboard > p {
     color: hsl(231, 7%, 65%);
     padding: 5px;
+    font-size: 18px;
 }
 
 main .insights {
@@ -129,11 +134,13 @@ main .insights {
 .insights > h1 {
     width: 60%;
     font-size: 48px;
+    font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
 }
 
 .insights > p {
     width: 40%;
+    font-size: 18px;
 }
 
 main .preview {
