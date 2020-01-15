@@ -5,23 +5,20 @@
 }
 
 html {
-    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
 body {
     background: white;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-.wrapper {
-    position: relative;
-    max-width: 1440px;
 }
 
 header {
@@ -31,6 +28,7 @@ header {
     align-items: center;
     background-color: transparent;
     z-index: 2;
+    padding: 20px 0;
 }
 
 header > #logo {
@@ -47,6 +45,7 @@ header nav {
     flex-direction: column;
     text-transform: uppercase; 
     margin-left: 20px;
+    padding-left: 20px;
 }
 
 nav > ul {
@@ -54,7 +53,7 @@ nav > ul {
     flex-direction: row;
     margin-top: 30px;
     left: 0;
-    width: 35vw;
+    width: 30vw;
 }
 
 nav li {
@@ -73,23 +72,43 @@ nav li a {
     display: flex;
     position: absolute;
     background: hsl(207, 33%, 95%);
-    width: 45%;
-    height: 65%;
+    width: 42%;
+    height: 80%;
     z-index: -1;
     top: 0;
     right: 0;
-    border-bottom-left-radius: 35px;
+    border-bottom-left-radius: 45px;
 }
 
 main {
     display: flex;
-    justify-content: center;
-    margin-top: 80px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
     width: 100%;
-    right: 0;
+    z-index: 1;
 }
 
-main > #device {
-    margin-left: 30px;
-
+main .main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+main #device {
+    position: absolute;
+    right: -210px;
+    width: 760px;
+    height: 264;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+} 
