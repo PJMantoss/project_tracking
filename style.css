@@ -72,6 +72,10 @@ nav li a {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+nav li a:hover {
+    color: rgb(131, 130, 130);
+}
+
 .bg-shape {
     display: flex;
     position: absolute;
@@ -97,7 +101,8 @@ main .main-info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 60px;
+    margin-left: 100px;
+    padding-left: 20px;
     
 }
 
@@ -114,7 +119,7 @@ main .dashboard {
     border-radius: 15px;
     color: white;
     padding: 0 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700px;
     font-family: 'Barlow Condensed', sans-serif;
 }
@@ -122,7 +127,7 @@ main .dashboard {
 .dashboard > p {
     color: hsl(231, 7%, 65%);
     padding: 5px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 main .insights {
@@ -140,12 +145,15 @@ main .insights {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .insights > p {
     width: 40%;
     font-size: 18px;
     padding: 10px 0 8px;
+    margin-top: 10px;
+    color: hsl(228, 11%, 53%);
 }
 
 main .preview {
@@ -166,12 +174,25 @@ main .preview {
     text-transform: uppercase;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
+}
+
+.preview > input:hover {
+    background: hsl(0, 88%, 73%);
+}
+
+.preview > p {
+    text-transform: uppercase;
+    align-self: center;
+    padding-left: 15px;
+    color: hsl(231, 7%, 65%);
+    font-size: 14px;
 }
 
 main #device {
     position: absolute;
     right: -210px;
-    width: 760px;
+    max-width: 760px;
     height: 264;
 }
 
