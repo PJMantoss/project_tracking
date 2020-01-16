@@ -14,10 +14,12 @@ html {
 body {
     background: white;
     box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+.wrapper {
     position: relative;
     overflow-x: hidden;
-    font-family: 'Barlow', sans-serif;
-    width: 1440px;
 }
 
 img {
@@ -62,7 +64,7 @@ nav > ul {
 
 nav li {
     list-style: none;
-    padding: 5px 20px 5px 20px; 
+    padding: 5px 20px; 
 }
 
 nav li a {
@@ -80,6 +82,26 @@ nav li a:hover {
 
 nav li a.active {
     color: rgb(29, 28, 28);
+}
+
+nav li .menu {
+    display: none;
+}
+
+@media screen and (max-width: 700px){
+    nav li:not(:last-child) {
+        display: none;
+    }
+    nav li a.menu {
+        display: block;
+        float: right;
+    }
+
+     nav.responsive {
+         position: relative;
+     }
+
+     nav.responsive li a.menu {}
 }
 
 .bg-shape {
@@ -197,15 +219,14 @@ main .preview {
 
 main #device {
     position: absolute;
-    right: -210px;
-    max-width: 760px;
+    right: -195px;
+    width: 760px;
     height: 264;
 }
 
 footer {
     background: transparent;
     display: flex;
-    justify-content: flex-end;
-    margin-top: 150px;
-    width: 100%;
+    justify-content: center;
+    margin-top: 250px;
 } 
