@@ -101,7 +101,17 @@ nav li .menu {
          position: relative;
      }
 
-     nav.responsive li a.menu {}
+     nav.responsive li a.menu {
+         position: absolute;
+         right: 0;
+         left: 0;
+     }
+
+     nav.responsive a {
+         float: none;
+         display: block;
+         text-align: left;
+     }
 }
 
 .bg-shape {
