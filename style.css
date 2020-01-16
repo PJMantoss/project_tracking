@@ -39,7 +39,7 @@ header {
 header > #logo {
     display: flex;
     align-self: center;
-    margin-left: 50px;
+    margin-left: 28px;
     margin-top: 30px;
     width: 40vw;
 }
