@@ -107,7 +107,7 @@ nav li .menu {
          left: 0;
      }
 
-     nav.responsive a {
+     nav.responsive ul {
          float: none;
          display: block;
          text-align: left;
@@ -201,7 +201,7 @@ main .preview {
 }
 
 .preview > input {
-    width: 18%;
+    width: 120px;
     height: 35px;
     background: hsl(0, 100%, 68%);
     color: white;
