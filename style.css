@@ -88,6 +88,27 @@ nav li .menu {
     display: none;
 }
 
+/* Checkbox */
+
+nav .menu-icon {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    float: right;
+    padding: 28px 20px;
+    cursor: pointer;
+}
+
+nav .menu-icon .nav-icon {
+    position: relative;
+    display: block;
+    background: #333;
+    transition: background .2s ease-out;
+    height: 2px;
+    width: 18px;
+}
+
+
 @media screen and (max-width: 700px){
     nav li:not(:last-child) {
         display: none;
