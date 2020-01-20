@@ -156,7 +156,23 @@ nav #menu:checked ~ .menu-icon:not(.steps) .nav-icon:after {
     nav .menu-icon {
         display: none;
     }
+
+    nav li {
+        float: left;
+    }
+
+    nav li a {
+        padding: 20px 30px;
+    }
+
+    nav ul {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
 }
+
+@media
 
 .bg-shape {
     display: flex;
