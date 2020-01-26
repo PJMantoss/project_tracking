@@ -31,10 +31,7 @@ img {
 header {
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     flex-wrap: wrap;
-=======
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
     justify-content: space-around;
     align-items: center;
     background-color: transparent;
@@ -50,7 +47,6 @@ header > #logo {
     width: 40vw;
 }
 
-<<<<<<< HEAD
 @media (max-width: 700px){
     header > #logo {
         margin-top: 12px;
@@ -73,34 +69,11 @@ header > .menu {
 }
 
 .menu li {
-=======
-header nav {
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase; 
-    padding-left: 20px;
-    font-family: 'Barlow Condensed', sans-serif;
-}
-
-nav > ul {
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    left: 0;
-    width: 30vw;
-}
-
-nav li {
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
     list-style: none;
     padding: 5px 20px; 
 }
 
-<<<<<<< HEAD
 .menu li a {
-=======
-nav li a {
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
     text-decoration: none;
     color: hsl(230, 29%, 20%);
     font-size: 14px;
@@ -108,16 +81,11 @@ nav li a {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-<<<<<<< HEAD
 .menu li a:hover {
-=======
-nav li a:hover {
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
     color: rgb(131, 130, 130);
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .menu li a.active {
     color: rgb(29, 28, 28);
 }
@@ -137,43 +105,15 @@ header .menu-icon {
     }
 
     header .menu-icon {
-=======
-nav li a.active {
-    color: rgb(29, 28, 28);
-}
-
-#mobile-nav {
-    display: none;
-} 
-
-@media (max-width: 700px){
-    header nav {
-        display: none;
-    }
-}
-
-/* Checkbox hack */
-
-@media (max-width: 700px){
-    #mobile-nav .menu-icon {
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
         position: relative;
         display: inline-block;
         user-select: none;
         float: right;
-<<<<<<< HEAD
         padding: 28px 5px 28px 35px;
         cursor: pointer;
     }
-    
+
     header .menu-icon .nav-icon {
-=======
-        padding: 28px 20px;
-        cursor: pointer;
-    }
-    
-    #mobile-nav .menu-icon .nav-icon {
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
         position: relative;
         display: block;
         background: #333;
@@ -181,14 +121,9 @@ nav li a.active {
         height: 2px;
         width: 18px;
     }
-    
-<<<<<<< HEAD
+
     header .menu-icon .nav-icon:before,
     header .menu-icon .nav-icon:after {
-=======
-    #mobile-nav .menu-icon .nav-icon:before,
-    #mobile-nav .menu-icon .nav-icon:after {
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
         width: 100%;
         height: 100%;
         display: block;
@@ -197,15 +132,15 @@ nav li a.active {
         content: "";
         transition: all .2s ease-out;
     }
-    
+
     header .menu-icon .nav-icon:before {
         top: 5px;
     }
-    
+
     header .menu-icon .nav-icon:after {
         top: -5px;
     }
-    
+
     header #menu-btn:checked ~ .menu {
         display: flex;
         flex-direction: column;
@@ -230,19 +165,19 @@ nav li a.active {
     header #menu-btn:checked ~ .menu > li:hover {
         border-top: 1px solid rgb(97, 96, 96);
     }
-    
+
     header #menu-btn:checked ~ .menu-icon .nav-icon {
         background: transparent;
     }
-    
+
     header #menu-btn:checked ~ .menu-icon .nav-icon:before {
         transform: rotate(-45deg);
     }
-    
+
     header #menu-btn:checked ~ .menu-icon .nav-icon:after {
         transform: rotate(45deg);
     }
-    
+
     header #menu-btn:checked ~ .menu-icon:not(.steps) .nav-icon:before,
     header #menu-btn:checked ~ .menu-icon:not(.steps) .nav-icon:after {
         top: 0;
@@ -382,7 +317,6 @@ main #device {
     right: -195px;
     width: 760px;
     height: 264;
-<<<<<<< HEAD
     z-index: 1;
 }
 
@@ -416,14 +350,11 @@ main #device {
     .bg-shape {
         height: 48%;
     }
-=======
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
 }
 
 footer {
     background: transparent;
     display: flex;
-<<<<<<< HEAD
     justify-content: flex-end;
     margin-top: 250px;
 } 
@@ -444,8 +375,3 @@ footer > p > a {
         margin-top: 170px;
     }
 }
-=======
-    justify-content: center;
-    margin-top: 250px;
-} 
->>>>>>> 74c77524076148018ecec6a9d264642f43033b78
