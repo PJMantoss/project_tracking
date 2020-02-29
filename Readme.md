@@ -1,4 +1,4 @@
-Project Tracking Intro Component is a simple static page designed with pure HTML and CSS. It's one of the many coding challanges by frontendmentor.io
+Project Tracking Intro Component is a simple static page designed with pure HTML and CSS.
 
 Designer: PJ Mantoss
 
